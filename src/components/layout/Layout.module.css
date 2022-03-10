@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 100%;
+    min-height: inherit;
+}
+
+.mainContent {
+    flex: 1;
+    margin-top: 5.125rem;
+    margin-left: 257px;;
+    min-height: 100%;
+    background-color: var(--color-light-gray);
+}
+
+@media (max-width: 768px) {
+    .mainContent {
+        margin-left: 0;
+        width: 100%;
+    }
+}
